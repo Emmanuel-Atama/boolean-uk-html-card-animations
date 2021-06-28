@@ -40,18 +40,23 @@ container {
   /* border: 1px solid red; */
 }
 .icons {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   margin: 1rem;
+  /* border-radius: 10% */
+}
+.icons-box {
+  width: 2.8rem;
+  height: 2.8rem;
+ 
 }
 .white-text-arrow {
   color: white;
   font-size: 2rem;
 }
-.icons img {
-  width: 2.5rem;
-  height: auto;
+.icons img:hover, .icons:hover {
   background-color: #6d7077;
+  border-radius: 30%;
 }
 .four-column-grid {
   display: grid;
@@ -80,7 +85,7 @@ container {
 .white-text {
   color: white;
 }
-.hire-me button {
+button {
   background-color: #bd59c6;
   font-size: 1.5rem;
   width: 12rem;
@@ -88,7 +93,7 @@ container {
   border: 0.125rem solid #bd59c6;
   border-radius: 2rem;
   padding: 0.5rem;
-  /* margin-left: 8.5rem; */
+  margin-left: 8.5rem;
 }
 hr {
   margin-top: 1.5rem;
