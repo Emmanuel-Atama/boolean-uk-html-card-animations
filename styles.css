@@ -18,8 +18,12 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-.grid-cotainer {
+.grid-container {
   height: 100vh;
+  display: grid;
+  place-items: center;
+}
+container {
   display: grid;
   place-items: center;
 }
@@ -84,7 +88,7 @@ ul {
   border: 0.125rem solid #bd59c6;
   border-radius: 2rem;
   padding: 0.5rem;
-  margin-left: 8.5rem;
+  /* margin-left: 8.5rem; */
 }
 hr {
   margin-top: 1.5rem;
